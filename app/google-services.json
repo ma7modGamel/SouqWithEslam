@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "175107876840",
+    "project_id": "souq-b712e",
+    "storage_bucket": "souq-b712e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175107876840:android:a123bb53103c19f799e65d",
+        "android_client_info": {
+          "package_name": "com.safwatech.Souq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnZOUzlKSPGIYZpU6qSIXZx3dxx4q-vHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
