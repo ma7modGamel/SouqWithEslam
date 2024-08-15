@@ -35,6 +35,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -51,4 +54,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.reactivenetwork.rx2)
     implementation(libs.androidx.core.splashscreen)
+    implementation(libs.lottie)
 }
