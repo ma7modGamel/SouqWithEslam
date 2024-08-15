@@ -14,12 +14,12 @@ import com.safwatech.Souq.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     lateinit var  binding:ActivityMainBinding
-    private val SPLASH_DISPLAY_LENGTH = 2000L // 2 seconds
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
 
         binding=ActivityMainBinding.inflate(layoutInflater)
-        initSplash(SPLASH_DISPLAY_LENGTH)
+        initSplash()
 
         super.onCreate(savedInstanceState)
 
@@ -35,11 +35,11 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    private fun   initSplash(SPLASH_DISPLAY_LENGTH: Long) {
+    private fun   initSplash() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             installSplashScreen()
         } else {
-            Handler().postDelayed({ binding.animationView.visibility = GONE },SPLASH_DISPLAY_LENGTH)
+           setTheme(R.style.Theme_Souq)
         }
     }
 
