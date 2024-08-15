@@ -42,4 +42,5 @@ class MainActivity : AppCompatActivity() {
             Handler().postDelayed({ binding.animationView.visibility = GONE },SPLASH_DISPLAY_LENGTH)
         }
     }
+
 }
